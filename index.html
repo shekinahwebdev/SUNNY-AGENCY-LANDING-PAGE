@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,18 +10,8 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
     </style>
   </head>
   <body>
@@ -77,13 +66,10 @@
         </div>
         <div class="section__image">
           <picture>
-            <!-- For desktop (screens ≥ 768px) -->
             <source
               media="(min-width: 768px)"
               srcset="/images/desktop/image-transform.jpg"
             />
-
-            <!-- For mobile (screens < 768px) -->
             <img
               src="/images/mobile/image-transform.jpg"
               alt="Responsive image"
@@ -92,7 +78,6 @@
         </div>
         <div class="section__image">
           <picture>
-            <!-- For desktop (screens ≥ 768px) -->
             <source
               media="(min-width: 768px)"
               srcset="/images/desktop/image-stand-out.jpg"
@@ -161,8 +146,8 @@
             class="clients__image"
           />
           <p class="testimonials">
-            Sunnyside’s enthusiasm coupled with their keen interest in our
-            brand’s success made it a satisfying and enjoyable experience.
+            Sunnyside's enthusiasm coupled with their keen interest in our
+            brand's success made it a satisfying and enjoyable experience.
           </p>
           <div class="bottom">
             <p class="client__name">Thomas S.</p>
@@ -239,7 +224,12 @@
       </aside>
 
       <footer class="footer">
-        <p class="footer__title">sunnyside</p>
+        <div class="footer__logo">
+          <img
+            src="/images/logo.svg"
+            alt="Sunnyside agency logo"
+            class="footer__logo-image"
+          />
         <ul class="footer__list">
           <li class="footer__item"><a href="#">About</a></li>
           <li class="footer__item"><a href="#">Services</a></li>
