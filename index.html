@@ -17,6 +17,18 @@
   <body>
     <main class="main_page">
       <header class="header">
+        <div class="header__bg">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/images/desktop/image-header.jpg"
+            />
+            <img
+              src="/images/mobile/image-header.jpg"
+              alt="Responsive image"
+            />
+          </picture>
+        </div>
         <div class="header_top">
           <nav class="nav">
             <div class="logo">
@@ -111,19 +123,19 @@
             </p>
           </div>
         </div>
-
         <div class="section__content_photography">
-          <h2 class="design__title">Photography</h2>
-          <p class="design__text">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
+          <div class="design_main__text">
+            <h2 class="design__title">Photography</h2>
+            <p class="design__text">
+              Increase your credibility by getting the most stunning, high-quality
+              photos that improve your business image.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="clients__section">
         <h2 class="clients__header">Client testimonials</h2>
-
         <div class="clients__info">
           <img
             src="/images/image-emily.jpg"
