@@ -230,7 +230,7 @@ body {
 
 .footer {
   padding: 2.5rem 1rem 5rem;
-  background-color: red;
+  background-color: var(--Green-500-footer);
   display: flex;
   flex-direction: column;
   align-items: center;
